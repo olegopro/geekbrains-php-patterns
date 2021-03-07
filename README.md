@@ -1,1 +1,1 @@
-# geekbrains-php-patterns-
+# geekbrains-php-patterns
