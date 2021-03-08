@@ -3,8 +3,6 @@
 use WebPage\BasicPage;
 use WebPage\HomePage;
 
-require_once '../vendor/autoload.php';
-
 $basicPage = new BasicPage('Title');
 echo $basicPage->getTitle();
 echo $basicPage->render();

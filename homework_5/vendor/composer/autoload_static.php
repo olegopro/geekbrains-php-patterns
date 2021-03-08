@@ -11,6 +11,10 @@ class ComposerStaticInit20345209be77cae2080a36c13f1b19f5
         array (
             'WebPage\\' => 8,
         ),
+        'F' => 
+        array (
+            'Fruits\\' => 7,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -18,10 +22,24 @@ class ComposerStaticInit20345209be77cae2080a36c13f1b19f5
         array (
             0 => __DIR__ . '/../..' . '/WebPage',
         ),
+        'Fruits\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Fruits',
+        ),
     );
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
+        'Fruits\\AppleFruit' => __DIR__ . '/../..' . '/Fruits/AppleFruit.php',
+        'Fruits\\BananaFruit' => __DIR__ . '/../..' . '/Fruits/BananaFruit.php',
+        'Fruits\\FruitDecorator' => __DIR__ . '/../..' . '/Fruits/FruitDecorator.php',
+        'Fruits\\FruitDecoratorColor' => __DIR__ . '/../..' . '/Fruits/FruitDecoratorColor.php',
+        'Fruits\\IFruit' => __DIR__ . '/../..' . '/Fruits/IFruit.php',
+        'Fruits\\PearFruit' => __DIR__ . '/../..' . '/Fruits/PearFruit.php',
+        'WebPage\\BasicPage' => __DIR__ . '/../..' . '/WebPage/BasicPage.php',
+        'WebPage\\HomePage' => __DIR__ . '/../..' . '/WebPage/HomePage.php',
+        'WebPage\\IPage' => __DIR__ . '/../..' . '/WebPage/IPage.php',
+        'WebPage\\PageDecorator' => __DIR__ . '/../..' . '/WebPage/PageDecorator.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
