@@ -9,6 +9,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
+      "Fruits\\": "Fruits/",
       "WebPage\\": "WebPage/"
     }
   }

@@ -7,4 +7,14 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Fruits\\AppleFruit' => $baseDir . '/Fruits/AppleFruit.php',
+    'Fruits\\BananaFruit' => $baseDir . '/Fruits/BananaFruit.php',
+    'Fruits\\FruitDecorator' => $baseDir . '/Fruits/FruitDecorator.php',
+    'Fruits\\FruitDecoratorColor' => $baseDir . '/Fruits/FruitDecoratorColor.php',
+    'Fruits\\IFruit' => $baseDir . '/Fruits/IFruit.php',
+    'Fruits\\PearFruit' => $baseDir . '/Fruits/PearFruit.php',
+    'WebPage\\BasicPage' => $baseDir . '/WebPage/BasicPage.php',
+    'WebPage\\HomePage' => $baseDir . '/WebPage/HomePage.php',
+    'WebPage\\IPage' => $baseDir . '/WebPage/IPage.php',
+    'WebPage\\PageDecorator' => $baseDir . '/WebPage/PageDecorator.php',
 );
