@@ -1,0 +1,15 @@
+{
+  "name": "evilgazz/homework_5",
+  "authors": [
+    {
+      "name": "olegopro",
+      "email": "evilgazz@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "WebPage\\": "WebPage/"
+    }
+  }
+}
