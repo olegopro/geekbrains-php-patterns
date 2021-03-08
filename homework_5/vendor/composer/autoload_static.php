@@ -11,6 +11,10 @@ class ComposerStaticInit20345209be77cae2080a36c13f1b19f5
         array (
             'WebPage\\' => 8,
         ),
+        'N' => 
+        array (
+            'Notifications\\' => 14,
+        ),
         'F' => 
         array (
             'Fruits\\' => 7,
@@ -21,6 +25,10 @@ class ComposerStaticInit20345209be77cae2080a36c13f1b19f5
         'WebPage\\' => 
         array (
             0 => __DIR__ . '/../..' . '/WebPage',
+        ),
+        'Notifications\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Notifications',
         ),
         'Fruits\\' => 
         array (
@@ -36,6 +44,12 @@ class ComposerStaticInit20345209be77cae2080a36c13f1b19f5
         'Fruits\\FruitDecoratorColor' => __DIR__ . '/../..' . '/Fruits/FruitDecoratorColor.php',
         'Fruits\\IFruit' => __DIR__ . '/../..' . '/Fruits/IFruit.php',
         'Fruits\\PearFruit' => __DIR__ . '/../..' . '/Fruits/PearFruit.php',
+        'Notifications\\ChromeNotification' => __DIR__ . '/../..' . '/Notifications/ChromeNotification.php',
+        'Notifications\\EmailNotification' => __DIR__ . '/../..' . '/Notifications/EmailNotification.php',
+        'Notifications\\INotifications' => __DIR__ . '/../..' . '/Notifications/INotifications.php',
+        'Notifications\\NotificationDecoratorWay' => __DIR__ . '/../..' . '/Notifications/NotificationDecoratorWay.php',
+        'Notifications\\NotificationsDecorator' => __DIR__ . '/../..' . '/Notifications/NotificationsDecorator.php',
+        'Notifications\\SmsNotification' => __DIR__ . '/../..' . '/Notifications/SmsNotification.php',
         'WebPage\\BasicPage' => __DIR__ . '/../..' . '/WebPage/BasicPage.php',
         'WebPage\\HomePage' => __DIR__ . '/../..' . '/WebPage/HomePage.php',
         'WebPage\\IPage' => __DIR__ . '/../..' . '/WebPage/IPage.php',
