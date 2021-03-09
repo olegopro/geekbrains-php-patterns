@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'fe2fa97561b3994cb206309b534dc5b2bee407c4',
+    'reference' => '8ea17c2ec4b748205de3de75583cb16f55f0ad8e',
     'name' => 'evilgazz/homework_5',
   ),
   'versions' => 
@@ -41,7 +41,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'fe2fa97561b3994cb206309b534dc5b2bee407c4',
+      'reference' => '8ea17c2ec4b748205de3de75583cb16f55f0ad8e',
     ),
   ),
 );

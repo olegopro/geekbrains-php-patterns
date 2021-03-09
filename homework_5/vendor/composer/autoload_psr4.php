@@ -9,4 +9,5 @@ return array(
     'WebPage\\' => array($baseDir . '/WebPage'),
     'Notifications\\' => array($baseDir . '/Notifications'),
     'Fruits\\' => array($baseDir . '/Fruits'),
+    'Adapter\\' => array($baseDir . '/Adapter'),
 );
