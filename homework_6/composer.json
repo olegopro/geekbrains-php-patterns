@@ -1,0 +1,17 @@
+{
+  "name": "evilgazz/geekbrains-php-patterns",
+  "description": "gb",
+  "authors": [
+    {
+      "name": "olegopro",
+      "email": "evilgazz@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Strategy\\": "Strategy/",
+      "ObserverReal\\": "ObserverReal/"
+    }
+  }
+}
