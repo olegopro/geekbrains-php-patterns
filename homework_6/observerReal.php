@@ -39,6 +39,7 @@ $allUsers = $userRepository->users[$user->attributes['id']]->attributes['email']
 //foreach ($userRepository->users as $user) {
 //    echo $userEmail = $user->attributes['email'];
 //}
+// не пойму как сделать перебор всех юзеров для оповещения
 
 //наблюдать за созданием вакансии
 $vacancyRepository = new \ObserverReal\VacancyRepository();
